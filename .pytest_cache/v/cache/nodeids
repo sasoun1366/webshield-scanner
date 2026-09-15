@@ -1,6 +1,0 @@
-[
-  "tests/test_security_audit.py::test_linux_audit_is_read_only_and_reports_checks",
-  "tests/test_security_audit.py::test_windows_audit_reports_firewall",
-  "tests/test_webshield.py::test_adds_https_scheme",
-  "tests/test_webshield.py::test_rejects_credentials"
-]
