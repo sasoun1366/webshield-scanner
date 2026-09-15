@@ -1,0 +1,3 @@
+WebShield Scanner — Defensive Educational License
+
+You may use, modify, and distribute this software for lawful defensive security purposes on systems you own or are explicitly authorized to assess. You may not use it for unauthorized access, credential theft, malware, denial of service, evasion, or attacks against third-party systems. The software is provided without warranty. The operator is responsible for complying with applicable laws and obtaining permission before testing.
