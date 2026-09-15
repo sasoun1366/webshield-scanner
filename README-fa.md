@@ -29,3 +29,25 @@ HTTPS، HSTS، CSP، X-Content-Type-Options، X-Frame-Options، Referrer-Policy�
 ## مجوز
 
 این محصول برای استفاده‌ی دفاعی و آموزشی عرضه می‌شود. خریدار مسئول رعایت قوانین، قراردادها و محدوده‌ی مجاز تست است.
+اجرای ساده
+
+مثلاً:
+
+py .\webshield.py https://example.com
+با Timeout مشخص
+py .\webshield.py https://example.com --timeout 10
+ذخیره نتیجه به JSON
+py .\webshield.py https://example.com --json report.json
+تولید گزارش HTML
+py .\webshield.py https://example.com --html report.html
+هر دو گزارش با هم
+py .\webshield.py https://example.com --json report.json --html report.html
+
+مثلاً برای سایت خودت:
+
+py .\webshield.py https://luyava.com --json luyava-report.json --html luyava-report.html
+
+بعد فایل luyava-report.html را با مرورگر باز کن.
+
+نکته: فقط URLهایی را اسکن کن که مالکشان هستی یا اجازه تستشان را داری؛ این ابزار برای ارزیابی دفاعی هدرهای امنیتی طراحی شده.
+
